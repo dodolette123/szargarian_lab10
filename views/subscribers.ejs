@@ -1,0 +1,12 @@
+<h1>Click on any book to see the details</h1>
+<% subscribers.forEach(s=>
+    { %> 
+        <a href="/books/<%=s.zipCode %>"> <p>
+            <b>Name:</b>
+            <%= s.name %>
+        </p></a>
+       
+    
+    
+    <% });
+%>
